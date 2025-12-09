@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TASAN WIN VIP </title>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+
+    body {
+        background: #000;
+        color: #fff;
+        overflow-x: hidden;
+    }
+
+    .bg-animated {
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background: linear-gradient(45deg, #ff00ff, #00eaff, #ffae00, #00ff6a, #8b00ff, #ff0040);
+        background-size: 500% 500%;
+        animation: gradientMove 10s ease infinite, rotate3D 12s linear infinite;
+        z-index: -2;
+        filter: blur(80px);
+        transform-style: preserve-3d;
+    }
+
+    @keyframes gradientMove {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+    @keyframes rotate3D {
+        0% { transform: perspective(800px) rotateX(0deg) rotateY(0deg); }
+        50% { transform: perspective(800px) rotateX(20deg) rotateY(20deg); }
+        100% { transform: perspective(800px) rotateX(0deg) rotateY(0deg); }
+    }
+
+    .tiger-bg {
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+      
+        opacity: 0.2;
+        z-index: -1;
+        filter: drop-shadow(0 0 60px #ff9100);
+    }
+
+    .hero { text-align: center; padding: 120px 20px; }
+
+    .title {
+        font-size: 55px;
+        font-weight: 800;
+        background: linear-gradient(45deg, #ff00ff, #00e5ff, #ffae00);
+        -webkit-background-clip: text;
+        color: transparent;
+        text-shadow: 0 0 25px rgba(255,255,255,0.3);
+        animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float { 0% { transform: translateY(0);} 50% { transform: translateY(-10px);} 100% { transform: translateY(0);} }
+
+    .subtitle {
+        margin-top: 12px;
+        font-size: 22px;
+        opacity: 0.9;
+        color: #ff4444;
+        text-shadow:0 0 12px #ff4444;
+        font-weight:600;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 30px;
+        padding: 16px 50px;
+        font-size: 20px;
+        font-weight: 700;
+        background: linear-gradient(45deg, #ff00cc, #2d2dff);
+        border-radius: 50px;
+        text-decoration: none;
+        color: white;
+        box-shadow: 0 0 25px rgba(255, 0, 200, 0.7);
+        transition: 0.3s;
+    }
+
+    .btn:hover { transform: scale(1.15); box-shadow: 0 0 40px rgba(255, 0, 200, 1); }
+
+    .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Smaller boxes */
+        gap: 20px;
+        padding: 70px 20px;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .box {
+        background: rgba(255,255,255,0.08);
+        border: 1px solid rgba(255,255,255,0.2);
+        border-radius: 20px;
+        padding: 20px; /* Reduced padding */
+        backdrop-filter: blur(12px);
+        transition: 0.35s;
+        box-shadow: 0 0 25px rgba(255,255,255,0.1);
+    }
+
+    .box:hover { transform: translateY(-10px) scale(1.03); box-shadow: 0 0 40px rgba(255,255,255,0.3); }
+
+    .box h3 { font-size: 20px; color: #00eaff; margin-bottom: 8px; }
+    .box p { opacity: 0.85; font-size: 14px; line-height: 1.4; }
+
+    .final { text-align: center; padding: 80px 20px; }
+    .final h2 { font-size: 36px; font-weight: 800; }
+    .final p { margin-top: 5px; opacity: 0.8; font-size: 18px; }
+
+    .footer { text-align: center; padding: 20px; opacity: 0.6; font-size: 14px; }
+
+</style>
+</head>
+
+<body>
+<div class="bg-animated"></div>
+<div class="tiger-bg"></div>
+
+<section class="hero">
+    <h1 class="title">JOIN VIP TASAN WIN CHANNEL</h1>
+    <p class="subtitle">
+        1. Sure Shots 💸<br>
+        2. Daily Premium Tips 💸<br>
+        3. Loss Recovery 💸<br>
+        4. Bonus up to ₹1000 💸
+    </p>
+    <a class="btn" href="https://t.me/+2khzaRnsSZhiYzI1">Join Now</a>
+</section>
+
+<section class="features">
+    <div class="box">
+        <h3>💎 Ultra Premium Tips</h3>
+        <p>Fast & accurate signals directly from professionals.</p>
+    </div>
+
+    <div class="box">
+        <h3>⚡ Instant Alerts</h3>
+        <p>Notification within seconds. Zero delays.</p>
+    </div>
+
+    <div class="box">
+        <h3>🛡 Loss Recovery Plans</h3>
+        <p>Safe money management & recovery-based entries.</p>
+    </div>
+
+    <div class="box">
+        <h3>🎁 Rewards & Bonus</h3>
+        <p>Earn up to ₹1000 joining bonus + extra gifts.</p>
+    </div>
+</section>
+
+<section class="final">
+    <h2>Start Growing Faster Today</h2>
+    <p>Join thousands of daily VIP members now.</p>
+    <a class="btn" href="https://t.me/+2khzaRnsSZhiYzI1">Join Free VIP Channel</a>
+</section>
+
+<div class="footer">© 2025 VIP Premium — All Rights Reserved</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
