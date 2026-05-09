@@ -6,11 +6,12 @@
 
   <title>VIP TRADER</title>
 
-  <!-- Meta Pixel Code -->
+  <!-- Meta Pixel -->
   <script>
     !function(f,b,e,v,n,t,s)
     {
       if(f.fbq)return;
+
       n=f.fbq=function(){
         n.callMethod ?
         n.callMethod.apply(n,arguments) : n.queue.push(arguments)
@@ -33,15 +34,19 @@
     }(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
 
-    fbq('init', '1161481219520537');
+    /* NEW PIXEL */
+    fbq('init', '27267312522866317');
+
+    /* PAGE VIEW */
     fbq('track', 'PageView');
+
   </script>
 
   <noscript>
     <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1161481219520537&ev=PageView&noscript=1"/>
+    src="https://www.facebook.com/tr?id=27267312522866317&ev=PageView&noscript=1"/>
   </noscript>
-  <!-- End Meta Pixel Code -->
+  <!-- End Meta Pixel -->
 
   <style>
 
@@ -145,11 +150,29 @@
     <h1 class="title">VIP TRADER</h1>
 
     <!-- Telegram Button -->
-    <a href="https://t.me/+hwjx7aGCx40wZjNl" class="btn">
+    <a 
+      href="https://t.me/+hwjx7aGCx40wZjNl" 
+      class="btn"
+    >
       JOIN TELEGRAM
     </a>
 
   </div>
+
+  <!-- AUTO REDIRECT + LEAD TRACK -->
+  <script>
+
+    setTimeout(() => {
+
+      /* Track Subscriber/Lead */
+      fbq('track', 'Lead');
+
+      /* Redirect After 3 Seconds */
+      window.location.href = "https://t.me/+hwjx7aGCx40wZjNl";
+
+    }, 3000);
+
+  </script>
 
 </body>
 </html>
